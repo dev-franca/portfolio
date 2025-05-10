@@ -1,190 +1,239 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="icon" href="assets/img/logoMarcaDevFranca.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="assets/img/logoMarcaDevFranca.png" type="image/x-icon">
 
-        <title>Portifólio - Dev França</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Dev França</a>
-                </div>
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Começo</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">Eu</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Especialidades</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
-                    </ul>
-                </div>
+    <title>Portifólio - A. França</title>
+</head>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Olá,<br>eu sou <span class="home__title-color">A. França</span><br> Desenvolvedor Web</h1>
-
-                    <a href="assets/js/CurriculoProgramador.pdf" download="curriculo.pdf" class="button">Currículo</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/dev-franca/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/dev-franca" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="-38" href="assets/img/dev-franca.png"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">Eu</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/foto-dev-franca.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">Olá, me chamo Alexandre França</h2>
-                        <p class="about__text">sou um programador jovem, com bastante intusiasmo sobre programação. Atualmente sou jovem aprendiz como Desenvolverdor Web. Desenvolvo sites e faço resolução de problemas, concentrado em performance, e funcionaliades.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Especialidades</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Desenvolvedor Web</h2>
-                        <p class="skills__text">Possuo skiills nessas tecnologias, e estou estudando novas tecnologias.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAb9JREFUSEvV1UuoT1EUx/HPVWREMaKkSBSSV3mUR16FFEWUQgZKKWXCgPJIUZgYGMhjQCEmRCFJSRgoosRAwpCkGIicVevqOjl3n/51k11nsvdvre9er3269PHq6mP//gngKSZ2GFnYTupp+7cIbmNBh4CwXVQCnMe6DgHnsL4EOIbtKVqFTwXYkCqll1NzFDtKgF04mKIJeF4AhOZZanbiUAmwCadSNB93cQRTG0CDMDnPNuJsCbC8cnY1RWtxARerSFa3qMtS3CgBpuNRirbhOMZiWAMgwFvzbAqelAAj8SZFB7C7cPOoV9Qt1gi8KwEG4luK3ldt97oBcBjXcRKbUzMA30uAOP+MKN5DRGfMwd4aaEXW6hqW4SOG1i/T9BbFrUcnYAaim+7UjGM/LvAY06rhfIlxbQH3MSvTMyaNxmN2VZMfeIAXuf82c38Pc9sCrmAlvmZ+w/hDzXh4NSPzcAb9camCrmkLOIEtNfErBCiczUR3ZN2yaOdo6z9WUw32tWjPuq892N8WMAobqlwvQQxev4ZW/ZlDeROne8zPb3mbP9pgLMTifOujyLfyi/f/S2+D2AZQGOTej/9/wC+swE0ZUpiktgAAAABJRU5ErkJggg=="/>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAb9JREFUSEvV1UuoT1EUx/HPVWREMaKkSBSSV3mUR16FFEWUQgZKKWXCgPJIUZgYGMhjQCEmRCFJSRgoosRAwpCkGIicVevqOjl3n/51k11nsvdvre9er3269PHq6mP//gngKSZ2GFnYTupp+7cIbmNBh4CwXVQCnMe6DgHnsL4EOIbtKVqFTwXYkCqll1NzFDtKgF04mKIJeF4AhOZZanbiUAmwCadSNB93cQRTG0CDMDnPNuJsCbC8cnY1RWtxARerSFa3qMtS3CgBpuNRirbhOMZiWAMgwFvzbAqelAAj8SZFB7C7cPOoV9Qt1gi8KwEG4luK3ldt97oBcBjXcRKbUzMA30uAOP+MKN5DRGfMwd4aaEXW6hqW4SOG1i/T9BbFrUcnYAaim+7UjGM/LvAY06rhfIlxbQH3MSvTMyaNxmN2VZMfeIAXuf82c38Pc9sCrmAlvmZ+w/hDzXh4NSPzcAb9camCrmkLOIEtNfErBCiczUR3ZN2yaOdo6z9WUw32tWjPuq892N8WMAobqlwvQQxev4ZW/ZlDeROne8zPb3mbP9pgLMTifOujyLfyi/f/S2+D2AZQGOTej/9/wC+swE0ZUpiktgAAAABJRU5ErkJggg=="/>
-                                <span class="skills__name">GIT</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAShJREFUSEvt1b8rhXEUx/HXTbFZ5McgA4pFiQys/AWUzXAzKIOymGwGmxJSSjYbf4LVYDdaTBhkEIsf3299Hz3R7f6+Ge53eYbvc87nvD/nPOcpaPIpNDm/lgt8NYjop/DfBG2BzOG2RWVn7f9atIQBHOENW7jFJDYxmNhqJujDCK6xhhOM4hELuKhXoDcljAJTuMMTngNVvMsqr5kgL7CBA8wEgnWsoKNegrxFn9jFfqKYxhW6cyR/tmm5XdSP4dSDbFY/Uj9OQ/K91OyKLYrBx5jFeLCkB/M4wyrm0iRdhmlaDhbtYLsagheM4SH3aR2m5NGSOKLZ6cJNmKSJagRi8D3O8Y4hFFPG10QXn51YTMXE64otKrsTSrxQUqDWhCXjWv5PbjjBN42gOxnLfKPpAAAAAElFTkSuQmCC"/>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAY5JREFUSEvt009oz3EYB/DXL5eVXKzVblJKqU12lBz8iVoyu+ziwtFBSg5SdhGHHSRykJhaaiuy2loKJclFzTZKojjtQv4uEvE8+qjffk3f7bCT33P7fr/P8/73PN+aZa7aMuNrElQm/H9FdB4d2I6fldmUhqVENIdZrFssePY1EpzClgLwC08wgBa8wgdM4W0QDWECt+sIv4fDB7iA9wsRvMAanClx9OI5+jGM/J4uurAKuwrB0+i/EYJ6sBF3saORIAc+FdWbiqrpQnQRh7AzHN5Bvl+Po8jdnMYJrMY7fCkC5kW0FffDwVUcRDte4kcofYTdAdYaoJ8LwDNMlt4+jMTzXtzCDDobHRzGObzB6xjYgDYcj+yP4CvWlsHcQwrJqDKSS7GrlUiiFSFsP643ElwJ8AN4jLyYrJsBeg2jxUWSbcNJDOIyvpWZ7E+3ZzH+d/H1V5Sq0lbm+OcCKmpz7OQhxrDnX731BPfwMc5wXxVy+d4dTo+VKDKiBWspP9oieee3NQkqY2tGVBnRbwZATRmgzCs/AAAAAElFTkSuQmCC"/>
-                                <span class="skills__name">PHP</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/estudo.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Projetos</h2>
-
-                <div class="work__container bd-grid">
-                    <a href="https://dev-franca.github.io/Museu-Nacional/" target="_blank" class="work__img">
-                        <img src="assets/img/museuNacional.png" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/projeto em desenvolvimento.png" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/projeto em desenvolvimento.png" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/projeto em desenvolvimento.png" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/projeto em desenvolvimento.png" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/projeto em desenvolvimento.png" alt="">
-                    </a>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Alexandre França</p>
-            <div class="footer__social">
-                <a href="https://github.com/dev-franca" target="_blank" class="footer__icon"><i class='bx bxl-github' ></i></a>
-                <a href="https://www.linkedin.com/in/dev-franca/" target="_blank" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">A. França</a>
             </div>
-            <p class="footer__copy">&#169; dev-franca. Todos direitos reservados</p>
-        </footer>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Começo</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre mim</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Especialidades</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Olá, eu sou<br><span class="home__title-color">Alexandre França</span><br>
+                    Desenvolvedor Web</h1>
+
+                <a href="assets/js/CurriculoProgramador.pdf" download="curriculo.pdf" class="button">Currículo</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/dev-franca/" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/dev-franca" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="-38" href="assets/img/dev-franca.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">Sobre mim</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/foto-dev-franca.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Olá, me chamo Alexandre França</h2>
+                    <p class="about__text">sou um programador jovem, com bastante intusiasmo sobre programação.
+                        Atualmente sou jovem aprendiz como Desenvolverdor Web. Desenvolvo sites e faço resolução de
+                        problemas, concentrado em performance, e funcionaliades.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Especialidades</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Desenvolvedor Web</h2>
+                    <p class="skills__text">Possuo skiills nessas tecnologias, e estou estudando novas tecnologias.</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAb9JREFUSEvV1UuoT1EUx/HPVWREMaKkSBSSV3mUR16FFEWUQgZKKWXCgPJIUZgYGMhjQCEmRCFJSRgoosRAwpCkGIicVevqOjl3n/51k11nsvdvre9er3269PHq6mP//gngKSZ2GFnYTupp+7cIbmNBh4CwXVQCnMe6DgHnsL4EOIbtKVqFTwXYkCqll1NzFDtKgF04mKIJeF4AhOZZanbiUAmwCadSNB93cQRTG0CDMDnPNuJsCbC8cnY1RWtxARerSFa3qMtS3CgBpuNRirbhOMZiWAMgwFvzbAqelAAj8SZFB7C7cPOoV9Qt1gi8KwEG4luK3ldt97oBcBjXcRKbUzMA30uAOP+MKN5DRGfMwd4aaEXW6hqW4SOG1i/T9BbFrUcnYAaim+7UjGM/LvAY06rhfIlxbQH3MSvTMyaNxmN2VZMfeIAXuf82c38Pc9sCrmAlvmZ+w/hDzXh4NSPzcAb9camCrmkLOIEtNfErBCiczUR3ZN2yaOdo6z9WUw32tWjPuq892N8WMAobqlwvQQxev4ZW/ZlDeROne8zPb3mbP9pgLMTifOujyLfyi/f/S2+D2AZQGOTej/9/wC+swE0ZUpiktgAAAABJRU5ErkJggg==" />
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAb9JREFUSEvV1UuoT1EUx/HPVWREMaKkSBSSV3mUR16FFEWUQgZKKWXCgPJIUZgYGMhjQCEmRCFJSRgoosRAwpCkGIicVevqOjl3n/51k11nsvdvre9er3269PHq6mP//gngKSZ2GFnYTupp+7cIbmNBh4CwXVQCnMe6DgHnsL4EOIbtKVqFTwXYkCqll1NzFDtKgF04mKIJeF4AhOZZanbiUAmwCadSNB93cQRTG0CDMDnPNuJsCbC8cnY1RWtxARerSFa3qMtS3CgBpuNRirbhOMZiWAMgwFvzbAqelAAj8SZFB7C7cPOoV9Qt1gi8KwEG4luK3ldt97oBcBjXcRKbUzMA30uAOP+MKN5DRGfMwd4aaEXW6hqW4SOG1i/T9BbFrUcnYAaim+7UjGM/LvAY06rhfIlxbQH3MSvTMyaNxmN2VZMfeIAXuf82c38Pc9sCrmAlvmZ+w/hDzXh4NSPzcAb9camCrmkLOIEtNfErBCiczUR3ZN2yaOdo6z9WUw32tWjPuq892N8WMAobqlwvQQxev4ZW/ZlDeROne8zPb3mbP9pgLMTifOujyLfyi/f/S2+D2AZQGOTej/9/wC+swE0ZUpiktgAAAABJRU5ErkJggg==" />
+                            <span class="skills__name">GIT</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAShJREFUSEvt1b8rhXEUx/HXTbFZ5McgA4pFiQys/AWUzXAzKIOymGwGmxJSSjYbf4LVYDdaTBhkEIsf3299Hz3R7f6+Ge53eYbvc87nvD/nPOcpaPIpNDm/lgt8NYjop/DfBG2BzOG2RWVn7f9atIQBHOENW7jFJDYxmNhqJujDCK6xhhOM4hELuKhXoDcljAJTuMMTngNVvMsqr5kgL7CBA8wEgnWsoKNegrxFn9jFfqKYxhW6cyR/tmm5XdSP4dSDbFY/Uj9OQ/K91OyKLYrBx5jFeLCkB/M4wyrm0iRdhmlaDhbtYLsagheM4SH3aR2m5NGSOKLZ6cJNmKSJagRi8D3O8Y4hFFPG10QXn51YTMXE64otKrsTSrxQUqDWhCXjWv5PbjjBN42gOxnLfKPpAAAAAElFTkSuQmCC" />
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAY5JREFUSEvt009oz3EYB/DXL5eVXKzVblJKqU12lBz8iVoyu+ziwtFBSg5SdhGHHSRykJhaaiuy2loKJclFzTZKojjtQv4uEvE8+qjffk3f7bCT33P7fr/P8/73PN+aZa7aMuNrElQm/H9FdB4d2I6fldmUhqVENIdZrFssePY1EpzClgLwC08wgBa8wgdM4W0QDWECt+sIv4fDB7iA9wsRvMAanClx9OI5+jGM/J4uurAKuwrB0+i/EYJ6sBF3saORIAc+FdWbiqrpQnQRh7AzHN5Bvl+Po8jdnMYJrMY7fCkC5kW0FffDwVUcRDte4kcofYTdAdYaoJ8LwDNMlt4+jMTzXtzCDDobHRzGObzB6xjYgDYcj+yP4CvWlsHcQwrJqDKSS7GrlUiiFSFsP643ElwJ8AN4jLyYrJsBeg2jxUWSbcNJDOIyvpWZ7E+3ZzH+d/H1V5Sq0lbm+OcCKmpz7OQhxrDnX731BPfwMc5wXxVy+d4dTo+VKDKiBWspP9oieee3NQkqY2tGVBnRbwZATRmgzCs/AAAAAElFTkSuQmCC" />
+                            <span class="skills__name">PHP</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/estudo.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Projetos</h2>
+
+            <div class="work__container bd-grid">
+                <!-- Projeto finalizado -->
+                <a href="https://dev-franca.github.io/Museu-Nacional/" target="_blank" class="work__img">
+                    <img src="assets/img/museuNacional.png" alt="Museu Nacional">
+                </a>
+
+                <!-- Projeto em desenvolvimento com legenda -->
+                <div class="work__img">
+                    <img src="assets/img/projeto em desenvolvimento.png" alt="Dashboard de Vendas">
+                    <div class="project-caption">
+                        <h3>Dashboard de Vendas</h3>
+                        <p>Status: Em desenvolvimento</p>
+                        <p>Previsão: Junho 2025</p>
+                    </div>
+                </div>
+
+                <div class="work__img">
+                    <img src="assets/img/projeto em desenvolvimento.png" alt="Sistema de Login e Autenticação">
+                    <div class="project-caption">
+                        <h3>Sistema de Login e Autenticação</h3>
+                        <p>Status: Em construção</p>
+                        <p>Previsão: Ainda esse ano</p>
+                    </div>
+                </div>
+
+                <div class="work__img">
+                    <img src="assets/img/projeto em desenvolvimento.png" alt="Blog com CRUD de Postagens">
+                    <div class="project-caption">
+                        <h3>Blog com CRUD de Postagens</h3>
+                        <p>Status: Em construção</p>
+                        <p>Previsão: Ainda esse ano</p>
+                    </div>
+                </div>
+
+                <div class="work__img">
+                    <img src="assets/img/projeto em desenvolvimento.png" alt="Sistema de agendamento">
+                    <div class="project-caption">
+                        <h3>Sistema de agendamento</h3>
+                        <p>Status: Design responsivo</p>
+                        <p>Previsão: Ainda esse ano</p>
+                    </div>
+                </div>
+
+                <div class="work__img">
+                    <img src="assets/img/projeto em desenvolvimento.png" alt="Agenda de contatos">
+                    <div class="project-caption">
+                        <h3>Agenda de contatos</h3>
+                        <p>Status: Em construção</p>
+                        <p>Previsão: Ainda esse ano</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Alexandre França</p>
+        <div class="footer__social">
+            <a href="https://github.com/dev-franca" target="_blank" class="footer__icon"><i
+                    class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/dev-franca/" target="_blank" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+        </div>
+        <p class="footer__copy">&#169; dev-franca. Todos direitos reservados</p>
+    </footer>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
